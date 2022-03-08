@@ -1,6 +1,6 @@
 call plug#begin()
 
-Plug 'sainnhe/sonokai'
+Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
@@ -50,15 +50,10 @@ if exists('+termguicolors')
   set termguicolors
 endif
 
-let g:sonokai_style = 'andromeda'
-let g:sonokai_enable_italic = 1
-let g:sonokai_disable_italic_comment = 0
-let g:sonokai_diagnostic_line_highlight = 1
-let g:sonokai_current_word = 'bold'
-colorscheme sonokai
+colorscheme gruvbox
 
 "Air Line"""""""""""""""""""""""""""""""""""""""""
-let g:airline_theme = 'sonokai'
+let g:airline_theme = 'gruvbox'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
 
