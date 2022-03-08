@@ -6,6 +6,7 @@ Font files you put in /.local/share/fonts directory.
 
 
 Watch the following tutorials: 
+
 https://www.youtube.com/watch?v=PZTLIVQxxEY (for terminal settings)
 https://www.youtube.com/watch?v=lm7y2hI6zME&t=5186s (for neovim settings)
 
