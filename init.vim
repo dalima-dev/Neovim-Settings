@@ -61,6 +61,15 @@ let g:airline_powerline_fonts = 1
 nmap <C-a> :NERDTreeToggle<CR>
 
 
+
+
+
+
+
+
+
+
+
 "COC"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:coc_global_extensions = [ 'coc-snippets', 'coc-pairs', 'coc-prettier', 'coc-tsserver', 'coc-html', 'coc-css', 'coc-json' ]
 
