@@ -9,6 +9,8 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
 Plug 'honza/vim-snippets'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
 
 call plug#end()
 
@@ -59,16 +61,6 @@ let g:airline_powerline_fonts = 1
 
 "NerdTree"""""""""""""""""""""""""""""""""""""""""
 nmap <C-a> :NERDTreeToggle<CR>
-
-
-
-
-
-
-
-
-
-
 
 "COC"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:coc_global_extensions = [ 'coc-snippets', 'coc-pairs', 'coc-prettier', 'coc-tsserver', 'coc-html', 'coc-css', 'coc-json' ]
